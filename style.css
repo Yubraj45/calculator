@@ -1,0 +1,151 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    background-color: white;
+
+}
+
+
+.screen {
+    width: 450px;
+    height: 100px;
+
+
+}
+
+.problem {
+    display: flex;
+
+    height: 56px;
+    width: 100;
+    justify-content: center;
+
+}
+
+
+#num1,
+#sign,
+#num2 {
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+
+
+.solution {
+
+    width: 159px;
+    height: 44px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 291px;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.buttons {
+    width: 450px;
+    height: 400px;
+
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 290px 160px;
+
+}
+
+
+
+.operands {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3px;
+
+}
+
+
+.operators {
+    width: 100%px;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    border: 2px solid;
+    padding: 2px;
+    margin: 0px 3px;
+    margin-bottom: -3px;
+    width: 83px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    background-color: #829399;
+    cursor: pointer;
+}
+
+.sign {
+    border: 2px solid;
+    padding: 3px;
+    margin: 3px;
+    width: 63px;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    background-color: #B1CC74;
+    cursor: pointer;
+}
+
+.equal {
+    border: 2px solid;
+    width: 143px;
+    height: 95px;
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.1rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    background-color: #B1CC74;
+    cursor: pointer;
+
+}
